@@ -1,0 +1,21 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "bot for slack",
+  "main": "index.ts",
+  "repository": "git@github.com:FrankChinedu/slack-bot-boltjs.git",
+  "author": "Obi Chinedu Frank <frankieetchy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.14.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "node --watch index.js"
+  }
+}
